@@ -1,0 +1,118 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/tsaiwei0523/2022_deep_learning_b0928006/blob/main/CGU_NLP_LAB1.pdf\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "SgNZTjrhcHa0"
+      },
+      "source": [
+        "## Lab#1, NLP Spring 2023\n",
+        "\n",
+        "### This is due on 2023/03/06 15:30, commit to your github as a PDF (lab1.pdf) (File>Print>Save as PDF). \n",
+        "\n",
+        "#### IMPORTANT: After copying this notebook to your Google Drive, please paste a link to it below. To get a publicly-accessible link, hit the *Share* button at the top right, then click \"Get shareable link\" and copy over the result. If you fail to do this, you will receive no credit for this lab!\n",
+        "\n",
+        "***LINK: *paste your link here****\n",
+        "####https://colab.research.google.com/drive/xxxxxxxxx\n",
+        "---"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "hpg8eU9wNBci"
+      },
+      "source": [
+        "**Student ID**:\n",
+        "\n",
+        "**Name**:\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "r1_cCBOwfPxI"
+      },
+      "source": [
+        "##Question 1 (100 points)\n",
+        "Let's switch over to coding! Write some code in this cell to compute the number of unique word **tokens** in this paragraph (5 steps of Text Normalisation: 1. Lowercase Conversion, 2. Remove punctuations, 3. Stemming, 4. Lemmatisation, 5. Stopword Removal). Use a whitespace tokenizer to separate words (i.e., split the string by white space). Be sure that the cell's output is visible in the PDF file you turn in on Github.\n",
+        "\n",
+        "---\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "STVNzF0frsX8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "W9Fm6AQJQDFa",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "eec64067-1ca5-44d9-e526-2784fe10e5b9"
+      },
+      "source": [
+        "paragraph = '''Last night I dreamed I went to Manderley again. It seemed to me\n",
+        "that I was passing through the iron gates that led to the driveway.\n",
+        "The drive was just a narrow track now, its stony surface covered\n",
+        "with grass and weeds. Sometimes, when I thought I had lost it, it\n",
+        "would appear again, beneath a fallen tree or beyond a muddy pool \n",
+        "formed by the winter rains. The trees had thrown out new\n",
+        "low branches which stretched across my way. I came to the house\n",
+        "suddenly, and stood there with my heart beating fast and tears\n",
+        "filling my eyes.'''\n",
+        "\n",
+        "# DO NOT MODIFY THE VARIABLES\n",
+        "tokens = 0\n",
+        "word_tokens = []\n",
+        "\n",
+        "# YOUR CODE HERE! POPULATE THE tokens and word_tokens VARIABLES WITH THE CORRECT VALUES!\n",
+        "\n",
+        "# DO NOT MODIFY THE BELOW LINE!\n",
+        "print('Number of word tokens: %d' % (tokens))\n",
+        "print(\"printing lists separated by commas\")\n",
+        "print(*word_tokens, sep = \", \") "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Number of word tokens: 0\n",
+            "printing lists separated by commas\n",
+            "\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
